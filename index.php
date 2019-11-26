@@ -1,4 +1,4 @@
-<?php 
+<?php
   include('pg_admin/confs/url.php');
   $cart = 0;
   if(isset($_SESSION['cart']))
@@ -16,9 +16,9 @@
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <![endif]-->
-  
+
   <link rel="stylesheet" type="text/css" href="<?php echo $url_file ?>/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo $url_file ?>/css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo $url_file ?>/css/conf.css">
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
@@ -26,14 +26,14 @@
   <script src="<?php echo $url_file ?>/scripts/jquery.js"></script>
   <script type="text/javascript">
     var web_url="<?php echo $url ?>";
-    var web_url_file="<?php echo $url_file ?>";    
+    var web_url_file="<?php echo $url_file ?>";
   </script>
 </head>
 <body>
   <a href="<?php echo $url ?>" id="scroll" style="display: none;"><span></span></a>
   <div class="contact"><!-- phone no. area -->
       <span class="line"><a href="tel:09899950008">09 899950008</a></span>
-      <span><a href="tel:09784020212">09 784020212</a></span>    
+      <span><a href="tel:09784020212">09 784020212</a></span>
   </div>
   <header id="pg_header"><!-- all page's main header -->
     <div id="logo"><!-- For page logo -->
@@ -46,15 +46,15 @@
             Online Shopping
           </span>
         </span>
-      </a>      
+      </a>
     </div>
 
-    <div id="cart"><!-- For cart --> 
+    <div id="cart"><!-- For cart -->
       <a href="<?php echo $url ?>/cart/list/">
         <i class='fas fa-shopping-cart' style='font-size:20px;color: #000;'></i>              <!-- fixed -->
         <span id="hk-cart-qty-js"><?php echo $cart?></span>
       </a>
-    </div>   
+    </div>
 
     <nav><!-- For menu -->
       <div class="menu-ani" id="menu-img" style="cursor: pointer;">                           <!-- fixed -->
@@ -99,7 +99,7 @@
         <ul>
           <li class="ft-related-head">About Us</li>
           <li><a href="https://www.facebook.com/sea.trading.14" target="_black">Facebook</a></li>
-          <li><a href="https://maps.app.goo.gl/EXGDp" target="_black">Location</a></li>   
+          <li><a href="https://maps.app.goo.gl/EXGDp" target="_black">Location</a></li>
         </ul>
 
         <ul>
@@ -115,7 +115,7 @@
           <li><a href="<?php echo $url ?>/general/delivery/">Yangon</a></li>
         </ul>
       </div>
-      <p>No.104 U Aye 4th St, Hlaing(16)Qtr, Yangon</p>       
+      <p>No.104 U Aye 4th St, Hlaing(16)Qtr, Yangon</p>
     </div><!-- end of footer-top -->
     <div class="footer-bottom">
       &copy;2018 <a href="#"></a>
@@ -138,11 +138,11 @@
               <input type="button" value="-" class="minus">
               <input type="number" step="1" min="1" max="1000" name="qty" value="1" class="input-text qty" id="quan">
               <input type="button" value="+" class="plus">
-            </div>  
+            </div>
           </div>
         </div>
 
-        <div class="wp-overlay-form" >          
+        <div class="wp-overlay-form" >
             <input type="hidden" id="hk-id-js" name="id">
             <table>
               <tr>
@@ -162,7 +162,7 @@
                 </td>
               </tr>
             </table>
-            <div id="wp-overlay-buy"><input type="submit" value="Buy"></div>                 
+            <div id="wp-overlay-buy"><input type="submit" value="Buy"></div>
         </div>
       </form>
     </div>
