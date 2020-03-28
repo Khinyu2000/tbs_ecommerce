@@ -1,4 +1,4 @@
-<?php 
-	$url = "http://localhost/sea_shop";
-	$url_file = "http://localhost/sea_shop";
+<?php
+	$url = "http://localhost/tbs.git";
+	$url_file = "http://localhost/tbs.git";
  ?>

@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /sea_shop/
+RewriteBase /tbs.git/
 
 
 RewriteRule ^pg_admin/(\w+)/(\w+)/(\w+)?$ pg_admin/admin_mvc.php?controller=$1&action=$2&id=$3 [L,QSA]
